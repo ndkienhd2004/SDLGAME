@@ -1,0 +1,218 @@
+# depslib dependency file v1.0
+1681040097 source:c:\users\hoank\onedrive\máy tính\fp\main.cpp
+	"Game.hpp"
+
+1681488951 source:c:\users\hoank\onedrive\máy tính\fp\game.cpp
+	"Game.hpp"
+	"TextureManager.hpp"
+	"GameObject.hpp"
+	"GameCharacter.hpp"
+
+1681040389 c:\users\hoank\onedrive\máy tính\fp\game.hpp
+	<SDL.h>
+	<iostream>
+	<string>
+	<SDL_image.h>
+
+1680702106 c:\users\hoank\onedrive\máy tính\fp\texturemanager.hpp
+	"Game.hpp"
+
+1680702106 source:c:\users\hoank\onedrive\máy tính\fp\texturemanager.cpp
+	"TextureManager.hpp"
+
+1680702106 c:\users\hoank\onedrive\máy tính\fp\gameobject.hpp
+	"Game.hpp"
+
+1680702106 source:c:\users\hoank\onedrive\máy tính\fp\gameobject.cpp
+	"GameObject.hpp"
+	"TextureManager.hpp"
+
+1680702107 source:c:\users\hoank\onedrive\máy tính\fp\src\input.cpp
+	"input.h"
+
+1678520896 c:\users\hoank\onedrive\máy tính\fp\sources\input.h
+
+1680688633 source:c:\users\hoank\onedrive\máy tính\fp_sdl-main\fp\game.cpp
+	"Game.hpp"
+	"TextureManager.hpp"
+	"GameObject.hpp"
+	"GameCharacter.hpp"
+
+1680686413 c:\users\hoank\onedrive\máy tính\fp_sdl-main\fp\game.hpp
+	<SDL.h>
+	<iostream>
+	<string>
+	<SDL_image.h>
+
+1680668879 c:\users\hoank\onedrive\máy tính\fp_sdl-main\fp\texturemanager.hpp
+	"Game.hpp"
+
+1680687251 c:\users\hoank\onedrive\máy tính\fp_sdl-main\fp\gameobject.hpp
+	"Game.hpp"
+
+1680684232 source:c:\users\hoank\onedrive\máy tính\fp_sdl-main\fp\main.cpp
+	"Game.hpp"
+
+1680668879 source:c:\users\hoank\onedrive\máy tính\fp_sdl-main\fp\src\input.cpp
+	"input.h"
+
+1680668879 c:\users\hoank\onedrive\máy tính\fp_sdl-main\fp\sources\input.h
+
+1680668879 source:c:\users\hoank\onedrive\máy tính\fp_sdl-main\fp\texturemanager.cpp
+	"TextureManager.hpp"
+
+1680687228 source:c:\users\hoank\onedrive\máy tính\fp_sdl-main\fp\gameobject.cpp
+	"GameObject.hpp"
+	"TextureManager.hpp"
+
+1680686520 source:c:\users\hoank\onedrive\máy tính\fp_sdl-main\fp\character.cpp
+	"character.hpp"
+	"Game.hpp"
+	"TextureManager.hpp"
+
+1680686484 c:\users\hoank\onedrive\máy tính\fp_sdl-main\fp\character.hpp
+	<SDL.h>
+	<string>
+
+1680687119 c:\users\hoank\onedrive\máy tính\fp_sdl-main\fp\gamecharacter.hpp
+	<SDL.h>
+	<string>
+
+1680688582 source:c:\users\hoank\onedrive\máy tính\fp_sdl-main\fp\gamecharacter.cpp
+	"GameCharacter.hpp"
+	"Game.hpp"
+	"TextureManager.hpp"
+
+1681040468 source:c:\users\hoank\onedrive\máy tính\fp\gamecharacter.cpp
+	"GameCharacter.hpp"
+	"Game.hpp"
+	"TextureManager.hpp"
+
+1681040542 c:\users\hoank\onedrive\máy tính\fp\gamecharacter.hpp
+	<SDL.h>
+	<string>
+	"Game.hpp"
+	"State.h"
+	"KeyboardController.h"
+
+1681037060 c:\users\hoank\onedrive\máy tính\fp\state.h
+
+1681037384 c:\users\hoank\onedrive\máy tính\fp\keyboardcontroller.h
+	"State.h"
+
+1681037755 source:c:\users\hoank\onedrive\máy tính\fp\keyboardcontroller.cpp
+	"KeyboardController.h"
+	"Game.hpp"
+
+1682534159 source:c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\game.cpp
+	"Game.hpp"
+	"TextureManager.hpp"
+	"GameObject.hpp"
+	"GameCharacter.hpp"
+	"ThreatObject.h"
+	"DropObject.h"
+	"Bats.h"
+	"State.h"
+	"TextObject.hpp"
+	<iostream>
+	<cstdlib>
+	<ctime>
+
+1682501832 c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\game.hpp
+	<SDL.h>
+	<iostream>
+	<string>
+	<algorithm>
+	<vector>
+	<SDL_image.h>
+	"Settings.h"
+
+1681736783 c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\settings.h
+
+1682501063 c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\texturemanager.hpp
+	"Game.hpp"
+	<SDL_ttf.h>
+
+1681489661 c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\gameobject.hpp
+	"Game.hpp"
+
+1682498629 c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\gamecharacter.hpp
+	<SDL.h>
+	<string>
+	<vector>
+	"Game.hpp"
+	"State.h"
+	"KeyboardController.h"
+	"Bullet.h"
+
+1682496564 c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\state.h
+
+1681917568 c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\keyboardcontroller.h
+	<vector>
+	"State.h"
+	"Bullet.h"
+
+1681655568 c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\bullet.h
+	<SDL.h>
+	"TextureManager.hpp"
+
+1681655729 source:c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\main.cpp
+	"Game.hpp"
+	"Settings.h"
+
+1682501457 source:c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\texturemanager.cpp
+	"TextureManager.hpp"
+
+1682533955 source:c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\bullet.cpp
+	"Bullet.h"
+
+1681739901 source:c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\gamecharacter.cpp
+	"GameCharacter.hpp"
+	"Game.hpp"
+	"TextureManager.hpp"
+
+1682483785 source:c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\keyboardcontroller.cpp
+	"KeyboardController.h"
+	"Game.hpp"
+
+1682499248 c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\threatobject.h
+	<SDL.h>
+	<string>
+	<vector>
+	"State.h"
+	"Game.hpp"
+	"TextureManager.hpp"
+
+1682499204 source:c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\threatobject.cpp
+	"ThreatObject.h"
+
+1681658407 source:c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\random.cpp
+
+1682507858 source:c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\dropobject.cpp
+	"DropObject.h"
+
+1682507860 c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\dropobject.h
+	<SDL.h>
+	<string>
+	<vector>
+	"State.h"
+	"Game.hpp"
+	"TextureManager.hpp"
+
+1682499423 source:c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\bats.cpp
+	"Bats.h"
+
+1682499258 c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\bats.h
+	"Game.hpp"
+	"ThreatObject.h"
+	"State.h"
+	"TextureManager.hpp"
+
+1682501444 source:c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\textobject.cpp
+	"TextObject.hpp"
+
+1682501496 c:\users\hoank\onedrive\máy tính\first-sdl-game\fp\textobject.hpp
+	<SDL.h>
+	<SDL_ttf.h>
+	"TextureManager.hpp"
+
