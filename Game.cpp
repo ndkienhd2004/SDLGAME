@@ -195,6 +195,18 @@ void Game::update()
                 cout<<"dam khua"<<endl;
                 if(player->health == 0)
                 {
+                    std::string HScore;
+                    std::fstream myfile("highsc.txt", std::ios::in | std::ios::out);
+                    std::getline(myfile,HScore);
+                    myfile.close();
+
+                    if(score > stoi(HScore))
+                    {
+                            HScore = std::to_string(score);
+                    }
+                    std::ofstream writeFile("highsc.txt");
+                    writeFile << HScore;
+                    writeFile.close();
                     SDL_Delay(3000);
                     isRunning = 0;
                 }
